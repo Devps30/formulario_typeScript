@@ -1,0 +1,72 @@
+.division{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* border: 0.1rem solid; */
+    width: 100%;
+}
+.division > Grid {
+    width: 50%;
+}
+.titulo{
+    font-size: 2rem;
+   /*  border: 0.1rem solid; */
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: inherit;
+    font-weight: bold;
+}
+.infoElaboradoEstado{
+    font-size: 1rem;
+    font-family: inherit;
+    /* border: 0.1rem solid; */
+    width: 40%;
+    margin-left: 20rem;
+}
+.contenedorCombox{
+    /* border: 0.1rem solid; */
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 2em;
+    width: 30%;
+    height: 100%;
+    margin-top: 1.5rem;
+    margin-left: 15rem;
+}
+.informacionEscrita{
+    /* border: 0.1rem solid; */
+    margin-top: 1.5rem;
+    width: 33%;
+    height: 100%;
+    margin-left: 5rem;
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;
+}
+.tabla{
+   /*  border: 0.1rem solid; */
+    text-align: center;
+}
+table{
+    table-layout: fixed;
+    width: 55rem;
+}
+th, td {
+    border: 0.5px solid blue;
+    width: 150px;
+    word-wrap: break-word;
+}
+.botones > button{
+    margin: 0.5rem;
+}
+.total{
+    font-weight: bold;
+}
+
+.prueba{
+    outline: none;
+}
+
+.pru{
+    border: 0.1rem solid;
+}
